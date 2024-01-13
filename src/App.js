@@ -2,6 +2,7 @@ import linkedin from './static/images/linkedin-logo.png';
 import github from './static/images/github-logo.png';
 import './App.css';
 import { Helmet } from 'react-helmet';
+import LogoCard from './components/LogoCard';
 
 function App() {
   return (
@@ -74,11 +75,11 @@ function App() {
           <h2 className="about-title">Hi, I'm Sadie</h2>
           <p className="about-body">Welcome to my corner of the internet!</p>
           <br />
-          <p class="about-body">I'm a computer engineering student at Columbia University with a passion for problem-solving and innovation.</p>
+          <p className="about-body">I'm a computer engineering student at Columbia University with a passion for problem-solving and innovation.</p>
           <br />
-          <p class="about-body">I embrace analytics and feedback to make data-driven decisions in the code that I write.</p>
+          <p className="about-body">I embrace analytics and feedback to make data-driven decisions in the code that I write.</p>
           <br />
-          <p class="about-body">I’m also a jazz bassist, amateur rock climber, and Lego flower enthusiast.</p>
+          <p className="about-body">I’m also a jazz bassist, amateur rock climber, and Lego flower enthusiast.</p>
 
           <br />
 
@@ -92,19 +93,19 @@ function App() {
           </div>
         </div>
 
-        <script>
-          {`
+          {
             document.addEventListener('DOMContentLoaded', function () {
               var lampLightbulb = document.getElementById('lamp-lightbulb');
               var lamp = document.getElementById('lamp');
-              
+              var isYellow = true;
+
               lamp.addEventListener('click', function () {
-                setIsYellow(!isYellow);
-                lampLightbulb.style.fill = isYellow ? 'var(--yellow)' : 'var(--grey)';
+                  console.log("here")
+                  isYellow = !isYellow;
+                  lampLightbulb.style.fill = isYellow ? 'var(--yellow)' : 'var(--grey)';
               });
-            });
-          `}
-        </script>
+            })
+          }
       </div>
     </div>
   );

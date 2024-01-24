@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/sfreisthler-portfolio/static/css/main.2cf1b590.css",
-    "main.js": "/sfreisthler-portfolio/static/js/main.e2d4dfd7.js",
+    "main.css": "/sfreisthler-portfolio/static/css/main.ba1bcd84.css",
+    "main.js": "/sfreisthler-portfolio/static/js/main.46c777a0.js",
     "static/js/787.82309c42.chunk.js": "/sfreisthler-portfolio/static/js/787.82309c42.chunk.js",
     "static/media/linkedin-logo.png": "/sfreisthler-portfolio/static/media/linkedin-logo.78a702c77641c8200f6e.png",
+    "static/media/openai-logo.png": "/sfreisthler-portfolio/static/media/openai-logo.67924d2dae8e9d4cc849.png",
+    "static/media/linux-logo.png": "/sfreisthler-portfolio/static/media/linux-logo.e20291fd78b63163cfd4.png",
+    "static/media/nodejs-logo.png": "/sfreisthler-portfolio/static/media/nodejs-logo.bc4b43cd5f20ba305059.png",
+    "static/media/c-language.png": "/sfreisthler-portfolio/static/media/c-language.5e46b117adbe664b7487.png",
+    "static/media/aws-logo.png": "/sfreisthler-portfolio/static/media/aws-logo.7322b6e4bff581d35533.png",
+    "static/media/java-logo.png": "/sfreisthler-portfolio/static/media/java-logo.6c64373d3b7415758078.png",
     "index.html": "/sfreisthler-portfolio/index.html",
-    "main.2cf1b590.css.map": "/sfreisthler-portfolio/static/css/main.2cf1b590.css.map",
-    "main.e2d4dfd7.js.map": "/sfreisthler-portfolio/static/js/main.e2d4dfd7.js.map",
+    "main.ba1bcd84.css.map": "/sfreisthler-portfolio/static/css/main.ba1bcd84.css.map",
+    "main.46c777a0.js.map": "/sfreisthler-portfolio/static/js/main.46c777a0.js.map",
     "787.82309c42.chunk.js.map": "/sfreisthler-portfolio/static/js/787.82309c42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cf1b590.css",
-    "static/js/main.e2d4dfd7.js"
+    "static/css/main.ba1bcd84.css",
+    "static/js/main.46c777a0.js"
   ]
 }

@@ -1,10 +1,12 @@
 import linkedin from './static/images/linkedin-logo.png';
 import github from './static/images/github-logo.png';
+//import openai from './static/images/openai-logo.png';
 import './App.css';
 import { Helmet } from 'react-helmet';
-import LogoCard from './components/LogoCard';
+import SkillsSection from './components/SkillsSection';
 
 function App() {
+
   return (
     <div>
       <Helmet>
@@ -107,6 +109,7 @@ function App() {
             })
           }
       </div>
+      <SkillsSection />
     </div>
   );
 }
